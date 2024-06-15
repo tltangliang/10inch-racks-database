@@ -1,6 +1,6 @@
-# Raspberry Pi PCI Express device compatibility database
+# 10" Rack System Database
 
-This repository builds the GitHub pages site: [http://pipci.jeffgeerling.com](http://pipci.jeffgeerling.com)
+This repository builds the GitHub pages site: [https://10-racks.com/](https://10-racks.com/)
 
 If you would like to add a new device to the site, or correct the information about an existing device, please file a Pull Request against this repository.
 
