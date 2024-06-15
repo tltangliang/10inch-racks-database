@@ -13,4 +13,4 @@ gem 'jekyll-redirect-from'
 gem "mini_magick", "~> 4.11"
 
 # gem "rails"
-gem "github-pages", "~> 215", group: :jekyll_plugins
+# gem "github-pages", "~> 215", group: :jekyll_plugins
