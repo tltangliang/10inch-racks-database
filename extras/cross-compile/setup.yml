@@ -43,8 +43,8 @@
     - name: Modify SSH config.
       ansible.builtin.lineinfile:
         path: /etc/ssh/sshd_config
-        regex: "{{ item.regex }}"
-        line: "{{ item.line }}"
+        regex: ""
+        line: ""
       loop:
         - regex: "^(# *)?PermitRootLogin"
           line: "PermitRootLogin yes"
@@ -54,7 +54,7 @@
       ansible.posix.authorized_key:
         user: root
         state: present
-        key: "{{ hostvars['cross-compile']['public_key']['stdout'] }}"
+        key: ""
       when: generate_ssh_key
 
 - name: Finish setting up build environment.
@@ -64,13 +64,13 @@
 
   tasks:
     - name: Accept the Pi host key.
-      ansible.builtin.shell: /bin/bash -c "ssh-keyscan -H {{ groups['pi'][0] }} >> /root/.ssh/known_hosts"
+      ansible.builtin.shell: /bin/bash -c "ssh-keyscan -H  >> /root/.ssh/known_hosts"
       changed_when: false
       when: generate_ssh_key
 
     - name: Create sshfs mount directories.
       ansible.builtin.file:
-        path: "{{ item }}"
+        path: ""
         state: directory
         mode: 0755
       loop:
