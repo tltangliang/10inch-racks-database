@@ -1,0 +1,17 @@
+---
+theme: jekyll-theme-slate
+title: 10" Rack System Database
+description: 10 inch rack device compatibility database
+url: https://10-racks.com/
+fathom_analytics: true
+
+collections:
+  racks:
+    output: true
+
+plugins:
+  - jekyll-redirect-from
+
+# deployment
+host: 100.64.64.1
+port: 80
