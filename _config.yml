@@ -13,5 +13,5 @@ plugins:
   - jekyll-redirect-from
 
 # deployment
-host: 100.64.64.1
+#host: 100.64.64.1
 port: 80
