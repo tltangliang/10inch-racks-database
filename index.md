@@ -19,7 +19,7 @@ Whereas there is no formal specification for "half rack", the term half-rack can
 
 ### Racks
 
-<table class="racks_table">
+<table class="rack_table">
   <thead>
     <tr>
       <th>Picture</th>
