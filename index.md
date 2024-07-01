@@ -4,12 +4,13 @@ title: Home
 ---
 <img src="{{ site.url }}/images/19_inch_vs_10_inch_rack.png" style="display: block; margin: auto;" width="800" />
 
+This site is clone of [https://pipci.jeffgeerling.com/] (https://pipci.jeffgeerling.com/), maintained by [Jeff Geerling](https://www.jeffgeerling.com/)
+
 The 10-inch rack (aka “half-rack”) isn’t a standard . Instead, it’s more like a general consensusso. 
 
 Whereas there is no formal specification for "half rack", the term half-rack can have different separate meanings: It can describe equipment that fits in a certain number of rack units, but occupy only half the width of a 19-inch rack (9.5 inches (241.30 mm)). These are commonly used when a piece of equipment does not require full rack width, but may require more than 1U of height.
 
-
-[This project is maintained on GitHub](https://github.com/tltangliang/10inch-racks-database); suggest new devices to test or share your own experiences there.
+This project is maintained on [GitHub](https://github.com/tltangliang/10inch-racks-database); suggest new devices to test or share your own experiences there.
 
 ## Categories
 {: .no_toc}
