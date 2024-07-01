@@ -2,11 +2,14 @@
 layout: default
 title: Home
 ---
-<img src="{{ site.url }}/images/19_inch_vs_10_inch_rack.svg" style="display: block; margin: auto;" width="800" />
+<img src="{{ site.url }}/images/19_inch_vs_10_inch_rack.png" style="display: block; margin: auto;" width="800" />
 
-The Raspberry Pi has PCI Express! There are some quirks to getting certain devices working with 64-bit Arm (arm64), so [Jeff Geerling](https://www.jeffgeerling.com) started testing PCIe devices on the Compute Module 4 and Pi 5, and is centralizing the resources on this site. Many experiences are documented on [Jeff Geerling's YouTube channel](https://www.youtube.com/c/JeffGeerling)!
+The 10-inch rack (aka “half-rack”) isn’t a standard . Instead, it’s more like a general consensusso. 
 
-[This project is maintained on GitHub](https://github.com/geerlingguy/raspberry-pi-pcie-devices); suggest new cards to test or share your own experiences there.
+Whereas there is no formal specification for "half rack", the term half-rack can have different separate meanings: It can describe equipment that fits in a certain number of rack units, but occupy only half the width of a 19-inch rack (9.5 inches (241.30 mm)). These are commonly used when a piece of equipment does not require full rack width, but may require more than 1U of height.
+
+
+[This project is maintained on GitHub](https://github.com/tltangliang/10inch-racks-database); suggest new devices to test or share your own experiences there.
 
 ## Categories
 {: .no_toc}
