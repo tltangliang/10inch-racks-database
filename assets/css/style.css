@@ -654,57 +654,37 @@ h1, h2, h3, h4, h5, h6 {
 #main_content p:first-of-type {
   margin-top: 0; }
 
-.card_table,
-.board_table,
-.hat_table {
+.rack_table {
   width: 100%; }
-  .card_table td,
-  .board_table td,
-  .hat_table td {
+  .rack_table td {
     vertical-align: top; }
-  .card_table .links,
-  .board_table .links,
-  .hat_table .links {
+  .rack_table .links {
     margin-top: 1em;
     font-size: .8em; }
 
-.card_table_picture,
-.board_table_picture,
-.hat_table_picture {
+.rack_table_picture {
   max-width: 100px;
   max-height: 100px;
   margin: 0; }
 
-.card_picture_td,
-.board_picture_td,
-.hat_picture_td {
+.rack_picture_td {
   width: 100px; }
 
-#card_title,
-#board_title,
-#hat_title {
+#rack_title {
   font-size: 24px; }
 
-.card_picture,
-.board_picture,
-.hat_picture {
+.rack_picture {
   text-align: center;
   width: 100%; }
-  .card_picture img,
-  .board_picture img,
-  .hat_picture img {
+  .rack_picture img {
     max-width: 500px; }
 
-.card_details_table,
-.board_details_table,
-.hat_details_table {
+.rack_details_table {
   margin: 0 auto; }
 
 @media screen and (max-width: 800px) {
   img {
     height: auto; }
 
-  .card_picture img,
-  .board_picture img,
-  .hat_picture img {
+  .rack_picture img {
     max-width: 100%; } }
