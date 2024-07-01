@@ -66,9 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Index pages.
-.card_table,
-.board_table,
-.hat_table {
+.rack_table {
   width: 100%;
 
   td {
@@ -81,30 +79,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.card_table_picture,
-.board_table_picture,
-.hat_table_picture {
+.rack_table_picture {
   max-width: 100px;
   max-height: 100px;
   margin: 0;
 }
 
-.card_picture_td,
-.board_picture_td,
-.hat_picture_td {
+.rack_picture_td{
   width: 100px;
 }
 
 // Detail pages.
-#card_title,
-#board_title,
-#hat_title {
+#rack_title {
   font-size: 24px;
 }
 
-.card_picture,
-.board_picture,
-.hat_picture {
+.rack_picture {
   text-align: center;
   width: 100%;
 
@@ -113,9 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.card_details_table,
-.board_details_table,
-.hat_details_table {
+.rack_details_table {
   margin: 0 auto;
 }
 
@@ -125,9 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
   }
 
-  .card_picture img,
-  .board_picture img,
-  .hat_picture img {
+  .rack_picture img {
     max-width: 100%;
   }
 }
