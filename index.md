@@ -23,7 +23,9 @@ Whereas there is no formal specification for "half rack", the term half-rack can
   <thead>
     <tr>
       <th>Picture</th>
-      <th>Device</th>
+      <th>Title</th>
+      <th>Brand</th>
+      <th>Height</th>
       <th>Status</th>
     </tr>
   </thead>
@@ -37,8 +39,15 @@ Whereas there is no formal specification for "half rack", the term half-rack can
       </td>
 	  
       <td>
-        <a href="{{ rack.url }}"><strong>{{ rack.title }}</strong></a><br>
-        (<a href="{{ rack.buy_link }}">Buy this rack</a>)
+        <a href="{{ rack.url }}"><strong>{{ rack.title }}</strong></a>
+      </td>
+
+      <td>
+        {{ rack.brand }}
+      </td>
+
+      <td>
+        {{ rack.height }}
       </td>
 	  
       <td>{{ rack.product_status }}</td>
