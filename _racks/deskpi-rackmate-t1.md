@@ -1,7 +1,7 @@
 ---
 layout: rack
 title: "DeskPi RackMate T1"
-picture: "/images/rack-deskpi-rackmate-t1.png"
+#picture: "/images/rack-deskpi-rackmate-t1.png"
 brand: DeskPi
 height: 8U
 deepth: "7.9 inch"
